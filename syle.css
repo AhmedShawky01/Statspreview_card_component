@@ -85,7 +85,8 @@ main{
     background-color: var(--accent);
     top: 0;
     left: 0;
-    opacity: 0.6;
+    opacity: 0.8; /* change to this */
+    mix-blend-mode: multiply; /* add this line */
 }
 @media (min-width: 425px) and (max-width: 768px){
     main{
